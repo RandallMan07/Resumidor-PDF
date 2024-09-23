@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="popup.js"></script>
+    
     <title>PDF - Summarizer</title>
 </head>
 <body>
     <header>
-        <h1>PDF Summarizer</h1>
+        <h1 id="tester">PDF Summarizer</h1>
     </header>
     <div class="main-content">
         <div class="container-toggle" id="container-ocr-toggle">
@@ -17,7 +20,7 @@
         </div>
 
         <div id="container-sumup-button">
-            <input type="button" title="Summarize"/>
+            <button id="summarizer_btn">Summarize!</button>
         </div>
     </div>
     <footer>

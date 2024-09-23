@@ -5,10 +5,19 @@
     "version": "1.0",
     "author": "Martins & Jaso",
     "action": {
-      "default_popup": "popup.html",
-      "default_title": "pdf_summarizer"
+      "default_title": "Summarize PDFs"
+    },
+    "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
     },
     "permissions": [
-      "storage"
+      "activeTab",
+      "storage",
+      "scripting"
+    ],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
     ]
   }
