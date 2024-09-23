@@ -1,15 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Mi primera extensión",
-    "description": "Una extensión básica de ejemplo.",
+    "name": "PDF - Summarizer",
+    "description": "Summarize university content in a few clicks.",
     "version": "1.0",
+    "author": "Martins & Jaso",
     "action": {
       "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-      }
+      "default_title": "pdf_summarizer"
     },
     "permissions": [
       "storage"

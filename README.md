@@ -13,3 +13,4 @@ El software será únicamente accesible en formato de extensión de navegador, e
 ### Bibliografia
 ---
 - SHATGPT
+- https://www.youtube.com/watch?v=B8Ihv3xsWYs
